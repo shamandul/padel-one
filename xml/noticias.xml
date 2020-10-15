@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<noticias xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="esquemaNoticias.xsd">
+	<noticia>
+		<titulo>Nueva Aplicación PadelOne</titulo>
+		<fecha>05-05-2014</fecha>
+		<contenido>Hoy ha salido la nueva aplicación PadelOne disponible para dispositivos móviles.
+			Con esta aplicación podemos tener en nuestro móvil todas las opciones que disponemos en nuestra Web. Descargala desde nuestra Web.</contenido>
+		<imagen>imagenes-publicas/PadelOneApp.jpg</imagen>
+	</noticia>
+	<noticia>
+		<titulo>Torneo de Verano</titulo>
+		<fecha>04-05-2014</fecha>
+		<contenido>El Primer torneo de Verano está previsto para la primera semana de Junio. Ya puedes apuntarte </contenido>
+		<imagen>imagenes-publicas/pistas2.jpg</imagen>
+	</noticia>
+	<noticia>
+		<titulo>PadelOne</titulo>
+		<fecha>30-04-2014</fecha>
+		<contenido>Una nueva aplicación está a punto de aparecer. Con esta nueva aplicación podremos realizar torneos y participar con nuestra plataforma Web favorita Padel las Salinas. Donde iremos publicando una multitud de sorpresas. Os dejo una captura del inicio de nuestra aplicación en la fase alfa</contenido>
+		<imagen>imagenes-publicas/PadelOneApp.jpg</imagen>
+	</noticia>
+
+</noticias>

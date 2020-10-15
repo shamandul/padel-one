@@ -1,0 +1,230 @@
+/* 
+    Created on : 21-ene-2014, 23:39:58
+    Author     : jesus de Serdio
+*/
+
+h1{
+    font-family: 'Dr Sugiyama', serif, cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: #000;
+}
+body{
+    font-family:'Allan', serif, cursive;
+    font-size: 1em;
+    text-align: center;
+    margin: 0px;
+    color: #000;
+}
+header{
+    height: 140px;
+}
+nav{
+    margin-top: 0px;
+    top: 0px;
+    float:   left;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+    background-image:  url("../img/logo.png");
+    background-color: rgba(255,255,255,0.5); 
+    margin-bottom: 10px;
+}
+#divfondo{
+   padding-top: 10px;
+   clear: both;                   
+}
+
+.secc{
+    clear: both;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.5);  
+     
+}
+footer{
+    clear: both;
+    margin: 0px;
+    float: bottom;
+    width: 100%;
+    height: 3em;
+    background-color: #A6AEAE;
+    
+}
+html {
+    background: url("../img/fondo.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+ul{ 
+    list-style-type:  none;
+    text-align: center; 
+}
+li{
+    display: inline-block;
+    padding: 2px;
+}
+a{
+    width: 160px;
+    text-align: center;
+    color: #000;
+    visibility: visible;
+    text-decoration:  none;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #000;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #000;
+    background-color: #517329;
+    margin: 0px;
+    display: block;
+    padding: 6px;
+    
+}
+a:hover{
+    background-color: #697B43;
+    visibility: visible;
+    border-right-width: 7px;
+    border-bottom-width: 5px;
+    border-bottom-color:  #213606;
+    border-right-color: #213606;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+    background-image:  url("../img/pelotas.png");
+}
+.pag_actual{
+    background-color: #717763;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
+    background-image:  url("../img/pelotas_click.png");
+}
+.error {
+  font-family: Verdana, Arial, sans-serif; 
+  font-size: 0.7em;
+  color: #900;
+  background-color : #ffff00;
+}
+#login fieldset {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 230px;
+  margin-left: -115px;
+  height: 180px;
+  margin-top: -80px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius: 20px;
+  background-color: #586E2E;
+}
+#c_torneo fieldset {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 230px;
+  margin-left: -115px;
+  height: 400px;
+  margin-top: -80px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius: 20px;
+  background-color: #586E2E;
+}
+#login .campo {
+  margin-top:8px;
+  margin-bottom: 10px;
+}
+
+#login label {
+  font-family : Arial, sans-serif;
+  font-size:0.8em;
+  font-weight: bold;
+}
+
+#login input[type="text"], #login input[type="password"] {
+  font-family : Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+  line-height:140%;
+  color : #000; 
+  padding : 3px; 
+  border : 1px solid #999;
+  height:18px;
+  width:220px;
+}
+
+#login input[type="submit"] {
+  width:100px;
+  height:30px;
+  padding-left:0px;
+}
+#presentacion{
+    float: left;
+    width: 200px;
+  //  padding-left: 40%;
+  
+}
+#logueo{
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+}
+#imgInicio{
+     padding-left: 70%;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image:  url("../img/pistas4.jpg");
+    //float: left;
+}
+table{
+    text-align: center;
+    margin-left: 25%;
+}
+th{
+    background-color: #8f8c8c;
+    color: white;
+}
+td{
+    background-color: rgba(187,217,126,.5);
+    color: black;
+}
+.blanco{
+    height: 100%;
+}
+#admin fieldset {
+
+  left: 50%;
+  width: 430px;
+  margin-left: 40%;
+  height: 180px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius: 20px;
+  background-color: #586E2E;
+}

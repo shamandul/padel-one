@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:annotation>
+	     <xs:documentation>
+		    Esquema para la cración de XML para las Noticis
+		    de la página Web Padel las Salinas.
+		    Creado por : Jesús de Serdio Perea
+		    Fecha: 05-05-2014
+	    </xs:documentation>
+	</xs:annotation>
+
+
+	<xs:element name="noticias">
+        <xs:complexType>
+            <xs:sequence>
+		<xs:element name="noticia" minOccurs="1" maxOccurs="unbounded">  
+			<xs:complexType>
+			<xs:sequence>
+				<xs:element name="titulo" minOccurs="1" maxOccurs="1" type="xs:string"></xs:element>
+				</xs:element>
+			    <xs:element name="fecha" type="xs:date"></xs:element>
+
+				<xs:element name="contenido" minOccurs="1" maxOccurs="1" type="xs:string"></xs:element>
+				<xs:element name="imagen" minOccurs="0" maxOccurs="1" type="xs:string"></xs:element>
+			</xs:sequence>
+			</xs:complexType>
+			   
+    </xs:element>
+</xs:schema>
+
